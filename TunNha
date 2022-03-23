@@ -1,0 +1,283 @@
+ Đăng nhập  Tạo tài khoản
+Tìm kiếm câu trả lời
+Tutorial
+Hỏi đáp
+Posts
+Tìm kiếm
+ 
+TRANG CHỦ
+TUTORIAL
+MySQL
+SQL
+C
+C++
+C#
+HTML5
+MongoDB
+Git
+Docker
+Web Service
+Unix
+Apache
+Java
+Python
+Html
+CSS
+Javascript
+PHP
+HỎI ĐÁP
+Mobile Apps
+MySQL
+SQL
+Linux
+C
+C++
+C#
+Centos
+Sublime Text
+ES6
+Express
+Web Design
+UX
+UI
+Webpack
+Npm
+HTML5
+Ruby On Rails
+MongoDB
+Git
+Meteor
+Docker
+Symfony
+ASP
+WordPress
+Drupal
+Zend Framework
+Sass
+Django
+Firebase
+Magento
+SocketIO
+Scala
+PhoneGap
+BackboneJS
+Material Design
+Gulp
+Xamarin
+Nginx
+Composer
+Golang
+Rust
+Web Service
+Unix
+Apache
+OOP
+Database
+Framework
+UML
+API
+Design
+Java
+Python
+Swift
+React Native
+Html
+CSS
+Javascript
+PHP
+POSTS
+Mobile Apps
+MySQL
+SQL
+Linux
+C
+C++
+C#
+Centos
+Sublime Text
+ES6
+Express
+Web Design
+UX
+UI
+Webpack
+Npm
+HTML5
+Ruby On Rails
+MongoDB
+Git
+Meteor
+Docker
+Symfony
+ASP
+WordPress
+Drupal
+Zend Framework
+Sass
+Django
+Firebase
+Magento
+SocketIO
+Scala
+PhoneGap
+BackboneJS
+Material Design
+Gulp
+Xamarin
+Nginx
+Composer
+Golang
+Rust
+Web Service
+Unix
+Apache
+OOP
+Database
+Framework
+UML
+API
+Design
+Java
+Python
+Swift
+React Native
+Html
+CSS
+Javascript
+PHP
+
+Love beautiful code? We do too.
+
+Home Tutorial Học Git cơ bản và nâng cao  Đặc điểm của Git
+ Tất cả
+ My Feed
+Đã giải quyết
+Danh mục
+Danh mục của bạn
+html Html
+css CSS
+javascript Javascript
+php PHP
+jquery Jquery
+laravel Laravel
+angularjs AngularJS
+nodejs NodeJS
+java Java
+python Python
+vuejs VueJS
+mysql MySQL
+c C
+swift Swift
+react-native React Native
+mongodb MongoDB
+docker Docker
+Previous Lesson
+Next Lesson
+Đặc điểm của Git
+Chúng ta đã tìm hiểu Git là gì, lợi ích của việc dùng Git trong bài trước, hôm nay chúng ta sẽ đi tìm hiểu về đặc điểm của Git và lý do sử dụng Git nhé
+
+Đặc điểm của Git
+2616?raw=trueimage-3
+
+Khi vào trang web chính thức của Git, chúng ta sẽ thấy ngay các đặc điểm chính của Git như: fast-version-control (quản lý phiên bản nhanh), distributed-even-if-your-workflow-isnt (phân tán cho dù quy trình làm việc của bạn không cần đến), distributed-is-the-new-centralized (phân tán cũng là một cách tập trung mới), local-branching-on-the-cheap (phân nhánh local với chi phí thấp), everything-is-local (mọi công việc đều thực hiện local). Hay có thể nói Git có các đặc điểm chính sau:
+
+Branching & Merging
+Nói về Git là phải nói về mô hình phân nhánh của Git (branching model). Git cho phép và khuyến khích chúng ta nên có nhiều nhánh cục bộ có thể làm việc hoàn toàn độc lập với nhau. Và việc tạo mới, gộp lại hay xóa các kết quả trong quá trình phát triển chỉ mất vài giây.
+Đáng chú ý là khi ta đưa vào một kho điều khiển từ xa (remote repository), ta không phải đưa vào tất cả các nhánh. Ta có thể chọn chỉ chia sẻ một, một vài hoặc tất cả trong số các nhánh đó. Điều này giúp cho mọi người cảm thấy thoải mái để tiếp tục thử nghiệm những ý tưởng mới mà không phải lo lắng về việc phải lập kế hoạch làm thế nào và khi nào họ sẽ gộp vào hoặc chia sẻ các nhánh cho người khác. Git làm cho quá trình này trở nên vô cùng dễ dàng.
+Nhỏ gọn và nhanh chóng – Small & Fast
+Hầu hết các hoạt động trên Git được thực hiện cục bộ, điều đó giúp Git có một lợi thế rất lớn về tốc độ xử lý, nhất là trên các hệ thống tập trung thường xuyên phải giao tiếp với một máy chủ ở đâu đó.
+Git được xây dựng để làm việc trên Linux kernel, có nghĩa là Git có khả năng xử lý hiệu quả các kho lưu trữ (repository) lớn ngay từ giai đoạn đầu. Tốc độ và hiệu suất là mục tiêu thiết kế chính của Git.
+Phân tán - Distributed
+Distributed: Một trong những tính năng hấp dẫn nhất của Distributed SCM mà Git có đó là phân tán. Điều này có nghĩa là thay vì thực hiện “checkout” source code hiện tại, ta có thể “clone” toàn bộ kho lưu trữ (repository).
+Nhiều bản sao lưu (Multiple Backups): Điều này có nghĩa là ngay cả khi bạn đang sử dụng quy trình làm việc tập trung, mỗi người dùng đều có một bản sao lưu đầy đủ từ máy chủ. Bản sao này có thể được đẩy lên thay thế cho bản chính trên máy chủ trong trường hợp có sự cố xảy ra. Rõ ràng, nếu bạn có nhiều bản sao thì việc phục hồi sẽ an toàn và dễ thành công hơn rất nhiều.
+Workflow: Vì bản chất của Git là phân tán và có hệ thống nhánh tuyệt vời nên hầu như các quy trình công việc (workflow) nào cũng có thể được thực hiện tương đối dễ dàng trên Git.
+Bảo đảm dữ liệu – Data Assurance
+2616?raw=trueimage-5
+
+Mô hình dữ liệu mà Git sử dụng đảm bảo tính toàn vẹn cho từng bit của dự án. Nó có cơ chế để mỗi tập tin và việc hoàn tất được kiểm tra kỹ lưỡng. Không thể lấy bất cứ thứ gì ra khỏi Git ngoài các bit chính xác mà chúng ta đưa vào.
+Chúng ta cũng không thể thay đổi tập tin, ngày tháng, thông điệp hoàn tất (commit message) hay bất cứ dữ liệu nào trong kho của Git mà không thay đổi ID của chúng sau đó. Điều này có nghĩa là nếu bạn có một commit ID, bạn có thể yên tâm là dự án của bạn chính xác như khi nó đã được commit. Trong khi đó hầu hết các hệ thống kiểm soát tập trung đều không mặc định cung cấp tính toàn vẹn như vậy.
+Staging Area
+Không giống như các hệ thống khác, Git có một vùng gọi là "staging area" hay "index". Đây là một khu vực trung gian nơi các giao dịch được định dạng và kiểm tra lại trước khi hoàn tất.
+Git có thể nhanh chóng chạy các tập tin và hoàn tất chúng mà không cần phải hoàn tất tất cả các tập tin được sửa đổi trong thư mục làm việc hoặc phải liệt kê chúng trên command line trong quá trình thực hiện.
+2616?raw=trueimage-6
+
+Điều này cho phép ta chỉ thực hiện các phần của một tập tin được sửa đổi, cập nhật các thay đổi trong tập tin khi cần.
+Git cũng có thể không sử dụng tính năng này khi ta không muốn – chỉ cần thêm ‘-a’ vào lệnh commit để thêm tất cả thay đổi của tất cả các tập tin vào “staging area”.
+2616?raw=trueimage-7
+
+Tại sao nên sử dụng Git?
+Một số lý do cho thấy chúng ta nên dùng Git:
+
+Tiết kiệm thời gian: Như đã giới thiệu ở trên, Git thực hiện công việc với tốc độ rất nhanh, giúp chúng ta có thêm thời gian để thực hiện các công việc khác.
+Làm việc offline: Với Git, hầu hết mọi việc đều có thể thực hiện trên máy cục bộ: tạo một hoàn tác, xem lịch sử của dự án, tạo ra các nhánh hoặc gộp chúng lại… Git cho phép ta quyết định nơi nào và khi nào muốn làm việc.
+Khôi phục khi gặp lỗi: Khi gặp lỗi, ta có thể “undo” cho công việc đó, thậm chí có thể khôi phục những gì đã xóa thông qua Reflog, bởi vì Git hiếm khi thực hiện việc xóa vĩnh viễn một nội dung nào đó.
+Yên tâm: Với Git ta có thể hoàn toàn yên tâm là mỗi bản sao của ai đó trong nhóm có trên máy tính là một bản sao có thể sử dụng được. Ngoài ra, hầu hết mọi hành động trong Git chỉ là thêm dữ liệu (rất hiếm khi xóa).
+Tạo ra những hoàn tác (commit) hữu ích: Git giúp ta tránh khỏi sự lộn xộn nhờ tạo ra các hoàn tác chi tiết. Với khái niệm “staging area” duy nhất đã nói ở trên, ta có thể xác định chính xác những thay đổi sẽ được đưa vào trong các hoàn tác tiếp theo, dù chỉ là một dòng thay đổi.
+Làm việc theo cách của riêng mình: Khi làm việc với Git, ta có thể sử dụng workflow của riêng mình. Ta có thể kết nối với nhiều kho từ xa, phân nhánh thay vì gộp lại, và làm việc với các module con khi ta cần. Hoặc ta cũng có thể dễ dàng làm việc với một kho trung tâm từ xa.
+Không trộn lẫn các công việc: chia các nhánh làm việc để dễ dàng theo dõi mọi thứ. Git là một công cụ sử dụng việc chia nhánh một cách nhanh chóng và dễ dàng.
+Cộng đồng người dùng lớn: Git được sử dụng bởi nhiều công ty lớn và các dự án mã nguồn mở như: Ruby On Rails, jQuery, Perl, Debian, Linux… Một cộng đồng lớn là một lợi thế của Git vì nó có rất nhiều tài liệu hướng dẫn, hỗ trợ sử dụng và các dịch vụ tiện ích.
+Những ai đang dùng Git?
+
+Hiện tại có rất nhiều công ty và dự án lớn đang sử dụng Git, ví dụ như: Google, Facebook, Microsoft, Twitter, Linkedin, NetFlix, PostGreSQL, Android, Linux, Eclipse, Gnome… Trong các công ty phần mềm hiện nay, Git cũng được sử dụng khá phổ biến để có thể dễ dàng quản lý phiên bản và giúp phối hợp hiệu quả các công việc trong dự án. Vậy thì còn chờ gì nữa, bạn hãy download và cài đặt Git trên máy tính của mình NGAY và LUÔN nhé.
+
+Nguồn tham khảo:
+
+https://git-scm.com/ https://en.wikipedia.org/wiki/Git https://www.git-tower.com/blog/8-reasons-for-switching-to-git
+
+Previous Lesson
+Next Lesson
+Preview
+Viết câu trả lời
+
+Nội dung câu hỏi.. [Markdown Supported]
+​
+100:01 Keystrokes
+0 Bình luận
+Danh mục bài học
+MỞ ĐẦU GIT
+Mở đầu
+Git là gì ?
+Đặc điểm của Git
+Quản lý phiên bản với Git
+Repository quản lý lịch sử
+Thao tác commit trong Git
+Working Tree và Index trong GIT
+CÀI ĐẶT GIT VÀ THIẾT LẬP BAN ĐẦU
+Hướng đẫn cài đặt Git
+Thiết lập ban đầu về GIT
+Tạo repository mới trong GIT
+Commit một file (tập tin)
+CHIA SẺ REPOSITORY
+Push lên remote repository trong GIT
+Clone một remote repository
+Pull từ remote repository
+CHIA SẺ REPOSITORY TRÊN BACKLOG
+Tạo remote repository trên Backlog
+Push lên remote repository
+Clone một remote repository trên Backlog
+Push từ repository đã clone
+Pull từ remote repository trên Backlog
+MERGE LỊCH SỬ THAY ĐỔI
+Merge lịch sử thay đổi
+Giải quyết xung đột trong GIT
+TÍCH HỢP LỊCH SỬ THAY ĐỔI
+Push trong trạng thái xung đột
+Giải quyết xung đột
+CÁCH LỆNH CƠ BẢN TRONG GIT
+Tạo Một Kho Chứa Git
+Ghi Lại Thay Đổi vào Kho Chứa
+Xem Lịch Sử Commit
+Phục Hồi trong GIT
+Làm Việc Từ Xa
+Đánh Dấu Tag
+Mẹo Nhỏ sử dụng GIT
+PHÂN NHÁNH TRONG GIT
+Nhánh Là Gì?
+Cơ Bản Về Phân Nhánh và Tích Hợp
+Quản Lý Các Nhánh
+Quy Trình Làm Việc Phân Nhánh
+Nhánh Remote
+Rebasing
+Hoclaptrinh.vn © 2017
+
+From Coder With
